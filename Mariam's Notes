@@ -1,0 +1,27 @@
+#HOW TO TURN MOTIFS INTO LOGOS:
+library(MotifDb)
+library(seqLogo)
+query(MotifDb, c("CTCF", "hsapiens")) #returns a list of ten motifs
+query(MotifDb, c("CTCF", "hsapiens"))[[1]] #let's look at the first one
+motif1=query(MotifDb, c("CTCF", "hsapiens"))[[1]] #let's name it "motif1" 
+ggseqlogo(motif1) #produces the logo we want 
+
+#naming the plot
+p1=ggseqlogo(motif1)+ ggtitle("HOCOMOCOv10-CTCFL_HUMAN.H10MO.A ")
+
+#to plot many motifs at once
+require(ggplot2)
+require(ggseqLogo)
+library(gridExtra)
+
+motif2=query(MotifDb, c("CTCF", "hsapiens"))[[2]]
+motif3=query(MotifDb, c("CTCF", "hsapiens"))[[3]]
+motif4=query(MotifDb, c("CTCF", "hsapiens"))[[4]]
+motif5=query(MotifDb, c("CTCF", "hsapiens"))[[5]]
+motif6=query(MotifDb, c("CTCF", "hsapiens"))[[6]]
+motif7=query(MotifDb, c("CTCF", "hsapiens"))[[7]]
+motif8=query(MotifDb, c("CTCF", "hsapiens"))[[8]]
+motif9=query(MotifDb, c("CTCF", "hsapiens"))[[9]]
+motif10=query(MotifDb, c("CTCF", "hsapiens"))[[10]]
+
+gridExtra::grid.arrange(p1, p2, p3, p4,p5, p6,p7,p8,p9,p10)
