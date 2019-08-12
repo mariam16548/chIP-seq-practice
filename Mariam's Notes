@@ -25,3 +25,39 @@ motif9=query(MotifDb, c("CTCF", "hsapiens"))[[9]]
 motif10=query(MotifDb, c("CTCF", "hsapiens"))[[10]]
 
 gridExtra::grid.arrange(p1, p2, p3, p4,p5, p6,p7,p8,p9,p10)
+
+
+############ 
+#Notes 
+# - Marjorie Brand Laboratory- located in Canada, studies the regulation of gene expression at the level of transcription and chromatin
+# - GEO (gene expression omnibus)- a database that has experimental data archived (primarily used as data storage)
+# - MACS2 broadpeak format- a format of data 
+# - hg19- a human reference genome (it's version 19)
+# - GSM1010734- one of the ChIP-seq experiments archived on GEO 
+# - file extension “.gz”   unzip tool “gunzip" - used to unzip .gz files, so that it can be read and used by R 
+
+# hg19 sequence:  https://www.biostars.org/p/56/
+# FIMO on the web: http://meme-suite.org/meme_5.0.4/tools/fimo
+
+#fimo manual method
+#1. upload the motif in .meme format from jaspar 
+#2. upload the sequence http://togows.org/api/ucsc/hg38/chr1:12,345-12,500.fasta
+#3. turn it into .fasta by right clicking with mouse and saving it as a .fasta
+
+
+##########
+#Put in the terminal for docker run:
+#docker run -v $PWD:/data/ fooliu/macs2 callpeak -t /data/chip-seq-file.bam -c /data/control-seq-file.bam -n test-run --outdir /data/
+#docker run -v $PWD:/data/ fooliu/macs2 callpeak -t /data/wgEncodeUwRepliSeqBg02esG1bAlnRep1.bam -c /data/wgEncodeUwRepliSeqBg02esG1bAlnRep1.bam -n test-run --outdir /data/
+
+#Docker switches: 
+-v mounts the current working directory into the container
+-t tag the image as
+-c  CPU shares (relative weight)
+-n
+-d (detach) Run container in background and print container ID
+--attach , -a	
+-e Set environment variables
+
+#https://docs.docker.com/engine/reference/commandline/run/
+
