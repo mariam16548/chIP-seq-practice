@@ -52,9 +52,9 @@ gridExtra::grid.arrange(p1, p2, p3, p4,p5, p6,p7,p8,p9,p10)
 
 #Docker switches: 
 -v mounts the current working directory into the container
--t tag the image as
+-t Allocate a pseudo-TTY
 -c  CPU shares (relative weight)
--n
+-n 
 -d (detach) Run container in background and print container ID
 --attach , -a	
 -e Set environment variables
