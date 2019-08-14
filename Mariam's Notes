@@ -59,6 +59,7 @@ gridExtra::grid.arrange(p1, p2, p3, p4,p5, p6,p7,p8,p9,p10)
 --attach , -a	
 -e Set environment variables
 
+Helpful Links: 
 #https://docs.docker.com/engine/reference/commandline/run/
 #https://hbctraining.github.io/Intro-to-ChIPseq/lessons/05_peak_calling_macs.html
 #https://angus.readthedocs.io/en/2018/chip-seq.html
@@ -66,4 +67,7 @@ gridExtra::grid.arrange(p1, p2, p3, p4,p5, p6,p7,p8,p9,p10)
 #https://colinfay.me/docker-r-reproducibility/
 #https://github.com/taoliu/MACS/tree/master/DOCKER
 #https://genome.ucsc.edu/FAQ/FAQformat.html#format5.1
+
+#Docker run example, only running with one file
+#docker run -v $PWD:/data/ fooliu/macs2 callpeak -t /data/wgEncodeUwRepliSeqBg02esG1bAlnRep1.bam
 
