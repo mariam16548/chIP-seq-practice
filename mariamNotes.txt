@@ -1,12 +1,10 @@
 ﻿MACS2 broad peak and narrow peaks: Called regions of signal enrichment are based on pooled, interpreted chIP-seq data. Narrow and broad are a representation of the pileup in a different way.
 
-
 NARROW:
 * Most peaks from transcription factors are narrow peaks (good for detecting the binding sites of transcription factor since the region bound is limited).
 * The narrow peaks of active marks can be analysed much like the standard analysis of transcription factor binding while you have to be a bit more inventive in analysing marks with broader distributions.
 * It is a BED 6+4 format
 * It has an extra column (ten total) in tbl.narrow (data frame created in identifyPeaks) (summit position relative to start.loc) 
-
 
 BROAD: 
 * It detects the enriched regions of histone modification from ChIP-seq data. (broad peaks are better for histone modifications or histone modifiers since the regions can be much wider)
