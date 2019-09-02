@@ -1,0 +1,45 @@
+﻿MACS2 broad peak and narrow peaks: Called regions of signal enrichment are based on pooled, interpreted chIP-seq data. Narrow and broad are a representation of the pileup in a different way.
+
+
+NARROW:
+* Most peaks from transcription factors are narrow peaks (good for detecting the binding sites of transcription factor since the region bound is limited).
+* The narrow peaks of active marks can be analysed much like the standard analysis of transcription factor binding while you have to be a bit more inventive in analysing marks with broader distributions.
+* It is a BED 6+4 format
+* It has an extra column (ten total) in tbl.narrow (data frame created in identifyPeaks) (summit position relative to start.loc) 
+
+
+BROAD: 
+* It detects the enriched regions of histone modification from ChIP-seq data. (broad peaks are better for histone modifications or histone modifiers since the regions can be much wider)
+   * Histone: proteins that are components of the chromatin, they bind to DNA 
+      * proteins that condense and package DNA neatly into chromosomes. 
+      * histone modification : “Modifications to these proteins affect different processes in the cell such as the activation/inactivation of transcription, chromosome packaging, DNA damage and DNA repair. The modification of histones is an important post-translational process that plays a key role in gene expression. The modifications impact this gene expression by changing the structure of chromatin or through recruitment of histone modifiers.”
+         * https://www.news-medical.net/life-sciences/Histone-Modification.aspx
+   * Chromatin: loose DNA that wraps itself around histones (DNA+histones=chromatin)
+      * Chromatin is the DNA and proteins that make up chromosomes
+* It is a BED 6+3 format.
+* tbl.broad  (data frame created in identifyPeaks) does not have an extra column (nine total) 
+OTHER COMPUTER SCIENCE NOTES:
+What is a stack?
+* An abstract data type (map is another abstract data type for example) that serves as a collection of elements, with two principal operations: push and pop. Under stack, vectors are included.
+* Its a type of linear data structure 
+   *  refers to an orderly arrangement of data. It consists of just one end. This end is used for both data addition as well as removal. 
+   * 'Push' and 'Pop' are the two functions of this data structure. 
+      * Push is a function defined for adding data
+      * Pop is for popping out or deleting the data.
+Data structures (they are containers of data)
+* Linear         
+   * Stacks, arrays (an array refers to a set of similar elements like a vector), lists (An ordered collection of objects (components). A list allows you to gather a variety of (possibly unrelated) objects under one name.)
+* Nonlinear 
+   * Tables, graphs (a graph consists of a bounded set of nodes (also termed as vertices). A pair of two nodes is called an edge. Each node has some data associated with it. Whereas, the edges indicate the pointers between the nodes. For two nodes 'a' and 'b', its edge can be represented as (a,b). This type of structure represents the concept of graphs in mathematics), sets, trees
+* Data structures in R:
+   * Vector (similar elements/same class)
+   * List (elements can be different classes)
+   * Matrix (requires that all members be of the same data type)
+   * Data frame (a special type of list where every element of the list has same length, like a table; elements can be different classes)
+   * Factors (Tell R that a variable is nominal by making it a factor— it has levels)
+Node stack overflow error: when the memory usage limit is being exceeded due to a “bounce-back” action, where it is being repeated over and over again: 
+
+
+For example: This would trigger a node stack overflow error because it is being asked to source identifyPeaks.R when it is already in the file you are currently in. 
+source("identifyPeaks.R")
+identifyPeaks<-function()
