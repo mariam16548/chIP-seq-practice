@@ -41,6 +41,29 @@ For example: This would trigger a node stack overflow error because it is being 
 source("identifyPeaks.R")
 identifyPeaks<-function()
 
+Object oriented programming/S4 NOTES: 
+- A Class in programming is a collection of variables (called attributes) and operations that can be performed on those variables.
+- class = a specification of an object
+- You define an S4 class by calling setClass() with the class name and a definition of its slots, and the names and classes of the class data:
+-Once the class is defined, you can construct new objects from it by calling new() with the name of the class and a value for each slo
+-class= description of the thing; object=instance of a class (created using new() )
+ E.g. A number→ has a class of numeric, but 14.2 is an instance of the class (an object)
+- method=a function that only operates on a certain class of objects 
+ e.g. Like multiplication only operates on numbers
+- Generic function- dispatches methods that suite the class of objects given
+  -First argument of a generic function is an object
+    Checks the class of the object and searches for an appropriate method, and then it will execute 
+    If specific method isn’t found, it looks for a default method, if that doesn’t exist an error pops up
+
+-If you want to look at the code for an S4 method use function getMethod()
+    getMethod(generic, signature)
+
+
+
+
+
+
+
 ----------------------------------------------------------------------------------------------------------------------------
 #HOW TO TURN MOTIFS INTO LOGOS:
 library(MotifDb)
