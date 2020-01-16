@@ -1,0 +1,214 @@
+NOTES on immunotherapy  paper:
+-Despite extensive global efforts, infectious diseases remain a 
+leading cause of morbidity and mortality worldwide, necessitating
+novel, innovative therapeutics that address the current challenges of
+increasing antimicrobial resistance.  
+ **a combinatorial approach is central to achieving an HIV cure 
+
+-although “immunotherapy” is habitually associated with the treatment
+of cancer, this review accentuates the evolving role of key targeted
+immune interventions that are approved, as well as those in
+development, for various cancers and infectious diseases. 
+- immunotherapy DEFINITION:
+ Immunotherapy is collectively defined as a therapeutic approach that
+ targets or manipulates the immune system   
+
+--- it aims to harness the host’s adaptive and innate immune response to
+ effectuate long-lived elimination of diseased cells and can be
+ categorized broadly into passive and active approaches
+
+passive immunotherapy/immunity
+-does not stimulate the host immune response
+
+active immunotherapy (e.g. vaccines-- they produce antibodies)
+-active immunotherapy induces the patient’s immune response and results
+in the development of specific immune effectors (produce antibodies or tcells)
+
+How vaccines work:
+--work by introducing a non-infectious version of a disease-causing microbe into an individual (results in a better stimulus for the activation of disease-specific T cells and the development of immunological memory).Memory immune cells are able to rapidly kill microbes and prevent infection
+
+- it has been far less effective against cancer and chronic infectious diseases such as human immunodeficiency virus (HIV). WHY: The lack of efficacy of candidate HIV vaccines has been attributed to HIV escape from vaccine specific CD8+ T cells (killer), lack of CD8+ T cells replenishment and inability to target latently infected cells
+
+
+-tCEll DEFINITION: white blood cells that are important to your immune system, initiate potent and specific immune responses against foreign antigens
+        --- strategies that activate these immune responses (are T cell therapies)
+
+- successful t-cell activation: 
+Requires T cell receptor (TCR) binding to peptide-MHC (major histocompatibility) complex and binding of T cell co-receptors with counter-receptors on APCs (antigen-presenting cell)
+
+
+T cell exhaustion 
+- It is characterized by persistent expression and diversity of inhibitory receptors, progressive and hierarchical loss of effector cytokines, metabolic imbalances, altered expression and function of transcription factors*
+
+NEW RESEARCH: ** there has been considerable interest in avoiding or reversing this dysfunctional state of exhaustion, and consequently, restoring or augmenting immune responses to effectively control infection or malignancies** 
+
+- T cell exhaustion is a mechanism of immune evasion essentially leading to the inefficient control of infection and tumors
+
+- increased and prolonged expression of checkpoint proteins can be considered a hallmark of exhausted T cells
+
+
+** RESEARCH interesting findings from ICBS: In in vitro settings, CTLA-4 blockade enhanced HIV-specific CD4+ T cell function, PD-1/PD-L1 blockade improved HIV-, HCV-, and HBV-specific CD8+ T cell function, while CTLA-4/PD-1 combination blockade reversed HCV-specific CD8+ T cell exhaustion
+
+
+
+**research on cytokine therapy --> needs to be targeted to restricting toxity/minimize the adverse effects 
+Neutralization of suppressive cytokines like IL-10 have shown promising results. During in vivo M. tuberculosis infection, IL-10 has been shown to be a negative regulator of the immune response, contributing to chronic infection. --> using Blockade of the IL-10 receptor (IL-10R), it restores T cell responses
+
+During M. tuberculosis infection, antibody blockade of IL-10R specifically during BCG vaccination improves Th1 and Th17 responses, resulting in significantly enhanced protection against aerogenic challenge with M. tuberculosis, compared to BCG vaccination alone
+
+-- simultaneous blockade of IL-10 and PD-1 reverses CD8+ T cell exhaustion, improving HIV control
+
+ systemic inhibition of any given cytokine will have wanted and unwanted effects, necessitating the need to make this therapy more targeted. 
+
+
+The efficacy of DARTs on the HIV-1 reservoir in vivo remains undetermined.
+
+---------
+
+Chimeric antigen receptor (CAR) T cells are modified T cells with a recombinant receptor (reprogrammed T cells), mediates T cell activation without MHC engagement
+How CAR T cell therapy works: The therapy involves the ex vivo expansion of the patient’s peripheral blood T cells, genetically modifying the cells to express the CAR and re-infusing the engineered T cells back into the patient
+
+Serious side effects of CAR T cell therapy-- cytokine release syndrome (CRS) aka cytokine storms and neurotoxicity
+
+*second-generation anti-HIV CAR T cells are being explored for their potential to provide long-term protection
+
+genetically modified fourth generation CARs also known as TRUCKs (T cell redirected for universal cytokine-mediated killing) with the ability to secret pro-inflammatory and pro-proliferative cytokines have been developed
+------------
+Modern cancer immunotherapy approaches include biologics that selectively deplete suppressor cell populations, like Tregs (reducing activation of effector T cell populations during prolonged inflammatory responses)
+
+During M. tuberculosis infection, bacilli are engulfed by dendritic cells in the lung and transported to lymph nodes where CD4+ and CD8+ T cells are activated. Tregs have an opposing effect that limit potential protective responses and facilitate bacterial replication 
+
+Additional studies using specific antibodies to deplete Tregs in M. tuberculosis-infected mice showed decreased bacterial burden
+
+ the role of Tregs in the pathogenesis of HIV is still unknown
+
+------------ 
+ ligand-targeted therapeutics (LTT) neutralizes or eliminates pathogenic infections and/or malignant cells
+- This is done by three major mechanisms of action: (a) inhibiting the function of certain molecules, (b) targeting particular cells or (c) acting as signaling molecules
+
+----------- 
+Antibody therapy for infectious disease is more straightforward than for viral diseases. To eliminate a viral infection a number of events need to occur, these include inhibition of: cell infection, viral replication, cell–cell transmission, viral release as well as mediated killing of infected cells 
+
+Recently, the potential therapeutic utility of RIT (radioimmunotherapy) in combination with antiretroviral drugs (ARVs) has been demonstrated as a novel treatment for the eradication of HIV 
+
+*There are currently no RITs approved for the treatment of TB but given that granuloma penetration is a major challenge, RITs with a wider radiation field may be able to bind to the cells on the outside of the granuloma and still elicit killing of bacilli within the granuloma. Additionally, other forms of immunotherapy used for treatment of solid tumors may be applicable to TB granulomas; one important example is bevacizumab, an anti-VEGF antibody used to normalize tumor vasculature in solid tumors. 
+
+----------- 
+Antibody-drug conjugates (ADCs) - con: current ones are not targeted 
+- combine the specificity of mAbs with the cytotoxic potential of drugs 
+All ADC’s currently approved for therapy target tumor associated antigens not tumor specific antigens thus resulting in undesired toxicity that limits its therapeutic application.
+
+*New generation ADC’s should focus on disease-specific targets and will most likely require payload that do not interact with cells unless conjugated to an antibody. The major challengers in developing ADC’s are identifying appropriate targets, designing chemically stable linkers and choosing an appropriately cytotoxic drug
+--------- 
+
+Immunotoxins
+A classical IT is comprised of a binding domain and a toxic protein domain originally attached by chemical conjugation and later recombinantly fused. To be effective, an IT needs to bind to a surface receptor of an infected cell, undergo endocytosis and intracellular trafficking of its catalytically active subunit to the cytosol where it induces cell death.
+
+NOTES on  TB paper: 
+- TB kills 1.5 million annually, it's caused by the bacillus Mycobacterium tuberculosis (Mtb)
+
+- Mtb inhibits host immunity by interfering with the function of T-cells. Delay in the arrival of T-cells at the site of infection or expansion of Tregs promote the Mtb growth that results in the chronic infection. Recently, T-cell exhaustion has also been documented as one of the important strategies utilized by Mtb that hamper the adaptive immune response during chronic infection 
+
+- Exhaustion of T-cells is one explanation why the host fails to discard chronic infections or eradicate some tumors.
+
+- signs of T cell exhaustion: elevated expression of multiple inhibitory receptors such as PD-1, TIM-3, LAG-3, CTLA-4 ; decreased cytokine production
+
+--CD8 is known to undergo exhaustion (CD4 can too)
+
+- Although, most of the exhaustion features of CD4 T-cells and CD8 T-cells are similar, the recent studies in a chronic viral model revealed differences in transcription factor expression profiles in the two cell types
+----**Transcription factors such as T-bet, Eomes, blimp-1, NFAT, BATF and VHL were implicated in CD8 T-cell exhaustion, but exhausted CD4 T-cells showed altered expression of BTLA, CTLA-4 and CD200, GATA-3, Bcl-6 and helios 
+
+
+CD4 exhaustion-- domino effect 
+
+CD4 T-cells help in the differentiation of CD8 T-cells and maintain their cytotoxic and memory responses. Depletion of CD4 T-cells during Mtb infection enhanced the severity of dysfunctional CD8 T-cells
+
+The activated CD4 T-cells mediate their effector function by clonal expansion, upregulating the expression of activation markers (CD44, CD69, CD28) and releasing cytokines (IFN-γ, IL-17, TNF-α) (Figure 1(A)). In contrast, the exhausted CD4 T-cells in Mtb infection show blunted T-cell proliferation, secrete suppressive cytokines such as IL-10 and reduced production of IFN-γ and display inhibitory molecules 
+
+CD4 T-cells also activate, proliferate and stimulate B-cells to secrete antibodies, but exhausted CD4 T-cells are inferior at supporting the function of B-cells. B-cells co-cultured with exhausted CD4 T-cells possess a defective phenotype and failed to proliferate and differentiate B-cells 
+
+Thus, by preventing the exhaustion of CD4 T-cells, optimum immune activation can be achieved. 
+
+Restoring function of exhausted T-cells
+*Blockade of PD-1 receptor (through Abs) could be one of the strategies-- However, blockade of PD-1 does not completely restore the function of PD-1 CD8 T-cells
+
+
+
+
+
+
+- the T-cell exhaustion results are ambiguous.
+- Innate and adaptive immunity plays a cardinal role during Mtb and host interaction. *
+Delay in the arrival of T-cells at the site of infection or expansion of Regulatory T cells (ones that suppress immune response; main role is maintaining immune homeostasis) promote the Mtb growth that results in the chronic infection *
+- it delays the immune response through t-cell exhaustion (T-cell exhaustion has also been documented as one of the important strategies utilized by Mtb that hamper the adaptive immune response during chronic infection)
+- Upon infection with a pathogen, T-cells are activated and differentiate into effector and memory T-cells. These cells restrict the growth and mediate clearance of pathogens. This maintains long- term protection from subsequent infections.
+
+
+LEARN ABOUT:
+    1) TB and adaptive immunity
+The adaptive immune response is mediated by lymphocytes and their products
+
+
+    2) the difference between adaptive and innate immunity
+Adaptive- for specific targets, can give long-lasting immunity
+Innate- defends host from infections (its response is not specific, does not give long-lasting immunity), doesn't change over a lifetime, it's an immediate defense for all plants and animals
+
+    3) the role of T-cells in immunology
+Upon infection with a pathogen, T-cells are activated and differentiate into effector and memory T-cells. These cells restrict the growth and mediate clearance of pathogens. This maintains long- term protection from subsequent infections.
+
+    4) the origin of T-cells - how they develop from hematopoietic stem cells
+
+All T-cells originate from hematopoietic stem cells, which are specialized stem cells that give rise to all the other blood cells through hemopoiesis (the process of producing blood cells- including white blood cells)
+
+Stem cells-- undifferentiated cells that can , or other differentiated cells (like T-cells)
+
+They're found in the thymus (hence the "T")
+
+
+    5) the nature of cell markers (CD) and T-cell markers in particular
+CD= cluster of differentiation
+Cell surface markers are proteins expressed on the surface of cells that often conveniently serve as markers of specific cell types
+Cell surface markers tell us how to differentiate the T cells (cd4+ helper [activates killer and B cells, which secrete antibodies], cd8+ Cytotoxic[killer], memory), we can do this through tf expression profiles (FoxP3 identifies Tregs), cytokine secretion profiles as well
+
+T cells can be differentiated by their markers (common ones: CD3, CD4, CD8, CD25 ) 
+
+    6) T-cell exhaustion: what is its evolutionary purpose?  how is it possible to
+       engineer exhausted T-cells back to activity?
+
+Tcell exhaustion-  decreases immunity, when T cells become dysfunctional/inactive-- due to persistent antigen exposure (become functionally incapable of performing effector activities), A hallmark of the exhausted state is that the T cells eventually lose the capacity to proliferate/increase, as exhaustion progresses, cytokine secretion decreased
+
+evolutionary purpose- better for controlling autoimmunity in autoimmune disease, transplants are easier
+how to engineer exhausted T-cells back to activity- 
+
+
+    7) cytokines- produced by t-cells, are involved in suppression or regulation of immune responses, help T cell mature
+
+    8) immune checkpoint inhibitors (ICBs)- immunotherapy drug that blocks immune checkpoint proteins, like PD1, (made by immune system cells such as T cells, so they can attack cancer cells better)- these proteins can hold T cells back from attacking cancer cells
+
+
+
+Other notes:
+When M. tuberculosis infects a person, it attacks the lungs' first-response immune cells, the macrophages 
+
+programmed cell death-1 (PD-1) 
+
+effector T-helper 1 (Th1) cells is the key cell-to-cell interaction in immunological control of Mtb infection
+
+Types of white blood cells (that are important in immune system) 
+- B cells 
+- T cells 
+
+
+A cytokine storm (severe case of cytokine release syndrome) is an overproduction of immune cells and their activating compounds (cytokines). In TB, the cytokine storm is used to induce or evade host immune responses
+Other helpful links: 
+https://www.medicinenet.com/script/main/art.asp?articlekey=11300 (t-cell general info)
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6628201/ (search "exhaustion")
+
+https://www.frontiersin.org/articles/10.3389/fimmu.2019.02139/full (tb and treg info conveyed clearly)
+- there's a debate whether Tregs are good or bad in Mtb infection
+
+https://www.frontiersin.org/articles/10.3389/fimmu.2019.00111/full (evolutionary purpose)
+
+https://www.bdbiosciences.com/documents/tcell_brochure.pdf (pg 4 on CDs)
+https://www.abcam.com/primary-antibodies/effector-t-cell-markers (CDs)
